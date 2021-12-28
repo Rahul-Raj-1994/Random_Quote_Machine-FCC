@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from 'react-dom';
 
 import './App.css';
 
@@ -127,7 +126,7 @@ class App extends React.Component {
             -{this.state.author}
           </p>
           <div id="buttons">
-            <div>
+            <div id="new-quote">
               <button
                 id="button"
                 onClick={this.handleClick}
